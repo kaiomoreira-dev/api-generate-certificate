@@ -20,8 +20,10 @@ export const handle:APIGatewayProxyHandler = async (event) => {
             statusCode: 200,
             body: JSON.stringify({
                 message: "Certificate valid" ,
-                name: userCertificate.name,
-                url:`https://serverlesscertificatepdf.s3.sa-east-1.amazonaws.com/${id}.pdf`
+
+                //retornar url dentro da AWS para baixar o pdf gerado
+                //name: userCertificate.name,
+                //url:`https://serverlesscertificatepdf.s3.sa-east-1.amazonaws.com/${id}.pdf`
             }),
         };
     }
