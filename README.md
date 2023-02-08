@@ -36,7 +36,7 @@ A estrutura do projeto está sendo criada com base no template `aws-nodejs-types
 
 
 - `functions` - contém o código das funções lambda
-- `libs` - contém os code compartilhado entre api e o lambda
+- `libs` - contém os código compartilhado entre api e o lambda
 
 ```
 .
