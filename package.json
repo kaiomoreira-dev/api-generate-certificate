@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "scripts": {
-    "update": "node node_modules/puppeteer-core/install.js",
+    "puppeeter:update": "node node_modules/puppeteer-core/install.js",
     "dev": "serverless offline",
     "deploy": "serverless deploy --verbose",
     "dynamo:start": "serverless dynamodb start"

@@ -1,26 +1,47 @@
-<h1>API Generate Certificate  </h1>
+<h1 align="center"> API Generate Certificate </h1>
 
 ## Summary
-
+- [Summary](#summary)
+- [Intro](#intro)
+- [Description](#description)
+- [Pré-requisitos](#pré-requisitos)
+- [Structure](#structure)
+  - [Template](#template)
+- [Project Acess](#project-acess)
+  - [Open \&\& Run](#open--run)
+- [Status](#status)
+- [Techniques \&\& Technologies](#techniques--technologies)
+- [Owner](#owner)
+  
+## Intro
+* Essa é uma aplicação acadêmica desenvolvida através das atividades apreendidas com a Rockeseat. Sua finalidade é para agregar conceitos e tecnologias como criar aplicação serveless modelo FaaS, utilizar banco de dados DynamoDB, escalonar, configurar, e utilizar o puppeeter.
+  
 ## Description
+* API Generate Certificate é API Serveless modelo FaaS com objetivo de gerar certificados de conclusão em pdf de uma empresa fictícia. Aplicação contém uma função generateCertificate para gerar um certificado. E uma função verifyCertificate verifica se existe determinado certificado. 
 
 ## Pré-requisitos
+* Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Node.js](https://nodejs.org/en/). 
+E o banco de dados Postgres:
+Além disto é bom ter um editor para trabalhar com o código como 
+[VSCode](https://code.visualstudio.com/).
 
-## Project structure
+
+
+## Structure
 
 ### Template
+A estrutura do projeto está sendo criada com base no template `aws-nodejs-typescript`
+[Serverless framework](https://www.serverless.com/).
 
-This project has been generated using the `aws-nodejs-typescript` template from the [Serverless framework](https://www.serverless.com/).
 
-The project code base is mainly located within the `src` folder. This folder is divided in:
-
-- `functions` - containing code base and configuration for your lambda functions
-- `libs` - containing shared code base between your lambdas
+- `functions` - contém o código das funções lambda
+- `libs` - contém os code compartilhado entre api e o lambda
 
 ```
 .
 ├── src
-│   ├── functions               # Lambda configuration and source code folder
+│   ├── functions               # Configuração Lambda e pasta de codigo
 │   │   ├── generateCertificate.ts
 │   │   │   ├── handler.ts      # Create certificate
 │   │   │
@@ -28,26 +49,68 @@ The project code base is mainly located within the `src` folder. This folder is 
 │   │   │   ├── handler.ts      # Verify certificate
 │   │   │
 Serverless configuration
-│   │   │   ├── mock.json       # `Hello` lambda input parameter, if any, for local invocation
-│   │   │   └── schema.ts       # `Hello` lambda input event JSON-Schema
+│   │   │   ├── mock.json       # Entrada de parâmetro se nenhum evento for encontrado
+│   │   │   └── schema.ts       # Entrada de esquema de evento
 │   │   │
-│   │   └── index.ts            # Import/export of all lambda configurations
+│   │   └── index.ts            # Import/export as configurações lambda
 │   │
-│   └── libs                    # Lambda shared code
-│       └── apiGateway.ts       # API Gateway specific helpers
-│       └── handlerResolver.ts  # Sharable library for resolving lambda handlers
+│   └── libs                    # Código lambda compartilhado
+│       └── apiGateway.ts       # API Gateway ajuda específico
+│       └── handlerResolver.ts  # Biblioteca de retorno funções handlers
 │       └── lambda.ts           # Lambda middleware
 │
 ├── package.json
-├── serverless.ts               # Serverless service file
-├── tsconfig.json               # Typescript compiler configuration
-├── tsconfig.paths.json         # Typescript paths
-└── webpack.config.js           # Webpack configuration
+├── serverless.ts               # Serverless serviço de arquivo
+├── tsconfig.json               # Typescript configuração de compilador
+├── tsconfig.paths.json         # Typescript caminhos
+└── webpack.config.js           # Webpack configuração
 ```
 
 ## Project Acess
 
 ### Open && Run
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/kaiomoreira-dev/api-generate-certificate.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd api-generate-certificate
+
+# Instale as dependências
+$ yarn ou npm install
+
+# Atualizar lib puppeteer
+$ yarn puppeeter:update
+
+# Iniciar o banco de dados DynamoDB
+$ yarn dynamo:start
+
+## Iniciar aplicação
+
+// desenvolvimento
+$ yarn dev ou npm run dev
+
+// produção
+$ yarn deploy ou npm run deploy
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
+# O banco de dados do postgres fica no docker na porta <http://localhost:8000> mas nao contém inferface para visualizar dados.
+```
+## Status
+*  Aplicação finalizada devido ao término das atividades acadêmicas. Tendo como objetivo concretizar ensinamentos e o denvolvimento profissional.
+
+## Techniques && Technologies
+* ![Typescript](https://img.shields.io/badge/-Typescript-%234F4F4F)
+* ![Node.js](https://img.shields.io/badge/-Node.js-%234F4F4F)
+* ![Git](https://img.shields.io/badge/-Git-%234F4F4F)
+* ![Github](https://img.shields.io/badge/-Github-%234F4F4F)
+* ![AWS](https://img.shields.io/badge/-AWS-%234F4F4F)
+* ![DynamoDB](https://img.shields.io/badge/-DynamoDB-lightgrey)
+  
+## Owner
+[<img src="https://avatars.githubusercontent.com/u/56137536?s=400&u=a74073f1d0f605815a4f343436c791ab7b7dc184&v=4" width=115><br><sub>Kaio Moreira</sub>](https://github.com/kaiomoreira-dev)
 
 
 
