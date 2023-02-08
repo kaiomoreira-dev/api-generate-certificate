@@ -30,14 +30,11 @@ E o banco de dados Postgres:
 Além disto é bom ter um editor para trabalhar com o código como 
 [VSCode](https://code.visualstudio.com/).
 
-
-
 ## Structure
 
 ### Template
 A estrutura do projeto está sendo criada com base no template `aws-nodejs-typescript`
 [Serverless framework](https://www.serverless.com/).
-
 
 - `functions` - contém o código das funções lambda
 - `libs` - contém os código compartilhado entre api e o lambda
@@ -69,7 +66,6 @@ Serverless configuration
 ├── tsconfig.paths.json         # Typescript caminhos
 └── webpack.config.js           # Webpack configuração
 ```
-
 ## Project Acess
 
 ### Open && Run
