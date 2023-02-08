@@ -107,7 +107,7 @@ $ yarn deploy ou npm run deploy
 * ![Git](https://img.shields.io/badge/-Git-%234F4F4F)
 * ![Github](https://img.shields.io/badge/-Github-%234F4F4F)
 * ![AWS](https://img.shields.io/badge/-AWS-%234F4F4F)
-* ![DynamoDB](https://img.shields.io/badge/-DynamoDB-lightgrey)
+* ![DynamoDB](https://img.shields.io/badge/-DynamoDB-grey)
   
 ## Owner
 [<img src="https://avatars.githubusercontent.com/u/56137536?s=400&u=a74073f1d0f605815a4f343436c791ab7b7dc184&v=4" width=115><br><sub>Kaio Moreira</sub>](https://github.com/kaiomoreira-dev)
