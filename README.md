@@ -26,9 +26,7 @@ Ignite.
 * Diante da API Generate Certificate foram desenvolvidas atividades como, criar uma
 aplicação Serverles modelo FaaS, utilizar banco de dados DynamoDB, configurar o servidor
 de forma escalável, criar PDF utilizando a lib puppeeter, configurar deploys utilizando AWS,
-configurar S3, configurações dentro do Webpack e criar funções. No decorrer do
-desenvolvimento e desafios resolvidos fui capaz de criar experiência de como desenvolver
-uma aplicação Serverless e fazer deploys na AWS.
+configurar S3, configurações dentro do Webpack e criar funções.
 
 ## Pré-requisitos
 * Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
