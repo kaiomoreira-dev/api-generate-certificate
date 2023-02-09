@@ -23,10 +23,11 @@ conclusões. Desenvolvido como projeto acadêmico junto a Rockeseat dentro do pr
 Ignite.
   
 ## Description
-* Diante da API Generate Certificate foram desenvolvidas atividades como, criar uma
-aplicação Serverles modelo FaaS, utilizar banco de dados DynamoDB, configurar o servidor
-de forma escalável, criar PDF utilizando a lib puppeeter, configurar deploys utilizando AWS,
-configurar S3, configurações dentro do Webpack e criar funções.
+* Diante da API Generate Certificate foram desenvolvidas atividades para criar servidor
+baseado em função, banco de dados não relacional, configurar o servidor de forma
+escalável, criar PDF, configurar aplicação em produção, armazenamento de arquivos,
+configurar empacotador de módulos, criar funções. Baseado nos fatos citados resolvi
+desafios criando experiência para desenvolver aplicações orientada a funções.
 
 ## Pré-requisitos
 * Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -113,6 +114,13 @@ $ yarn deploy ou npm run deploy
 * ![AWS](https://img.shields.io/badge/-AWS-%234F4F4F)
 * ![DynamoDB](https://img.shields.io/badge/-DynamoDB-grey)
 * ![FaaS](https://img.shields.io/badge/-FaaS-grey)
+* ![CI/CD](https://img.shields.io/badge/-CI%2FCD-grey)
+* ![Serverless](https://img.shields.io/badge/-Serverless-grey)
+* ![Puppeeter](https://img.shields.io/badge/-Puppeeter-grey)
+* ![Webpack](https://img.shields.io/badge/-Webpack-grey)
+* ![Deploy](https://img.shields.io/badge/-Deploy-grey)
+* ![EC2](https://img.shields.io/badge/-EC2-grey)
+* ![S3](https://img.shields.io/badge/-S3-grey)
   
 ## Owner
 [<img src="https://avatars.githubusercontent.com/u/56137536?s=400&u=a74073f1d0f605815a4f343436c791ab7b7dc184&v=4" width=115><br><sub>Kaio Moreira</sub>](https://github.com/kaiomoreira-dev)
