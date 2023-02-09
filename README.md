@@ -18,10 +18,17 @@
 - [Owner](#owner)
   
 ## Intro
-* Essa é uma aplicação acadêmica desenvolvida através das atividades apreendidas com a Rockeseat no programa Ignite. Sua finalidade é para agregar conceitos e tecnologias como criar aplicação Serverless modelo FaaS, utilizar banco de dados DynamoDB, escalonar, configurar, e utilizar o puppeeter.
+* Generate Certificate é uma API Serverless desenvolvida para gerar certificados de
+conclusões. Desenvolvido como projeto acadêmico junto a Rockeseat dentro do programa
+Ignite.
   
 ## Description
-* API Generate Certificate é API Serverless modelo FaaS com objetivo de gerar certificados de conclusão em PDF de uma empresa fictícia. Aplicação contém uma função generateCertificate para gerar um certificado. E uma função verifyCertificate verifica se existe determinado certificado. 
+* Diante da API Generate Certificate foram desenvolvidas atividades como, criar uma
+aplicação Serverles modelo FaaS, utilizar banco de dados DynamoDB, configurar o servidor
+de forma escalável, criar PDF utilizando a lib puppeeter, configurar deploys utilizando AWS,
+configurar S3, configurações dentro do Webpack e criar funções. No decorrer do
+desenvolvimento e desafios resolvidos fui capaz de criar experiência de como desenvolver
+uma aplicação Serverless e fazer deploys na AWS.
 
 ## Pré-requisitos
 * Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
