@@ -26,7 +26,7 @@ Ignite.
 * Diante da API Generate Certificate foram desenvolvidas atividades para criar servidor
 baseado em função, banco de dados não relacional, configurar o servidor de forma
 escalável, criar PDF, configurar aplicação em produção, armazenamento de arquivos,
-configurar empacotador de módulos, criar funções. Baseado nos fatos citados resolvi
+configurar empacotador de módulos, criar funções. Baseado nos fatos citados, resolvi
 desafios criando experiência para desenvolver aplicações orientada a funções.
 
 ## Pré-requisitos
