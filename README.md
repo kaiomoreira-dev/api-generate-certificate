@@ -23,11 +23,7 @@ conclusões. Desenvolvido como projeto acadêmico junto a Rockeseat dentro do pr
 Ignite.
   
 ## Description
-* Diante da API Generate Certificate foram desenvolvidas atividades para criar servidor
-baseado em função, banco de dados não relacional, configurar o servidor de forma
-escalável, criar PDF, configurar aplicação em produção, armazenamento de arquivos,
-configurar empacotador de módulos, criar funções. Baseado nos fatos citados, resolvi
-desafios criando experiência para desenvolver aplicações orientada a funções.
+* Desenvolveu e utilizou uma aplicação compondo uma estrua de funções com banco de dados não relacional e configurou em produção, armazenamento de arquivos, empacotador de módulos, PDF. Criou experiência para desenvolver aplicações orientada a funções.
 
 ## Pré-requisitos
 * Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
